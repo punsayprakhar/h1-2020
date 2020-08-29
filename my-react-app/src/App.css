@@ -1,6 +1,18 @@
 .App {
   text-align: center;
 }
-div{
+div {
   font-family: 'latoregular';
+}
+
+button {
+  font-family: 'latobold';
+}
+
+.blue-text {
+  color: lightseagreen;
+}
+
+.purple-text {
+  color: purple;
 }
