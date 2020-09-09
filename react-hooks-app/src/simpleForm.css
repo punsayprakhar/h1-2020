@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main__div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    font-family: latoregular;
+}
+    
+h1 {
+    font-family: latobold;
+    background-color: transparent;
+    text-shadow: 0 2px 2px black;
+    color: #fff;
+}
+
+input {
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    text-align: center;
+    font-family: latoregular;
+}
+    
+    
+button {
+    padding: 0 20px;
+    background: #9b59b6;
+    color: #fff;
+    border: 2px solid #ecf0f1;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: latoregular;
+    line-height: 24px;
+ }    
