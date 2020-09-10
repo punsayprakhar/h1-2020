@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 
 import ToDoLists from './ToDoLists'
 
+import Button from '@material-ui/core/Button';
+import AddIcon from '@material-ui/icons/Add';
+import Tooltip from '@material-ui/core/Tooltip';
+
 import './App.css';
 import './font.css';
 
@@ -41,7 +45,9 @@ const App = () => {
             placeholder='Add Items'
             onChange={itemChangeEventHandler}
             value={inputList} />
-          <button onClick={addItemHandler}> + </button>
+            <Tooltip title="Add" aria-label="add">
+              <Button className="button-green" onClick={addItemHandler}> <AddIcon/> </Button>
+            </Tooltip>
 
           <ol>
             {/*<li>{inputList}</li>*/}
