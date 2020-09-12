@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SimpleForm from './SimpleForm';
+import { BrowserRouter } from 'react-router-dom';
+import MainRoutingComponent from './MainRoutingComponent';
 import './font.css';
 import './simpleForm.css'
 // import './index.css';
 
 ReactDOM.render(
-    <SimpleForm />,
+  <BrowserRouter>
+    <MainRoutingComponent />
+  </BrowserRouter>,
   document.getElementById('root')
 );
